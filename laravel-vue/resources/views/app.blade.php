@@ -6,8 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Vue/Laravel SSR App</title>
 </head>
+
+
 <body>
-<div id="app"></div>
-<script src="{{ asset('js/app.js') }}" type="text/javascript"></script>
+
+{!! $ssr !!}
+
+<script src="{{ asset('js/entry-client.js') }}" type="text/javascript"></script>
 </body>
 </html>

@@ -24,7 +24,6 @@ require('./bootstrap');
 import App from './components/App.vue';
 import Vue from 'vue';
 
-new Vue({
-    el: '#app',
+export default new Vue({
     render: h => h(App)
 });

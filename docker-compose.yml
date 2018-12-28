@@ -15,7 +15,6 @@ services:
     - redis
     working_dir: /var/www/html/
 
-
   adminer:
     image: adminer
     restart: always
